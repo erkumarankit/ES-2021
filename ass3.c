@@ -14,4 +14,6 @@ int main(){
 		temp/=10;
 	}
 	printf("Sum of all the digits of %d: %d", x, sum);
+	
+	return 0;
 }
