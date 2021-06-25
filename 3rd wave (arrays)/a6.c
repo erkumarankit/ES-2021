@@ -8,9 +8,7 @@ int main()
     {
         i++;
     }
-    printf("Number stored:\n");
-    for (int j = 0; j < i; j++)
-    {
-        printf("%c\n", a[j]);
-    }
+    printf("Number Stored: ");
+    a[i] = '\0';
+    printf("%s\n", a);
 }
